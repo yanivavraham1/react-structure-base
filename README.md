@@ -1,8 +1,8 @@
-# React + Vite
+A basic React + Vite Project for every prepose + TailwindCSS installed and configured
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Directories:
+src/pages: All pages of the website (Home.jsx, Login.jsx, etc..)
+pages/(logged-in): Pages only for logged-in users (if exists)
+src/components/ui: All components in the app, not including components that uses other components (like ItemList)
+src/components: All components that use other components 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
